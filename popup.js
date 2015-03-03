@@ -20,7 +20,7 @@ window.onload = function(){
 					}, 600);
 				} else {
 					var opts = chrome.extension.getURL("options.html");
-					document.getElementById('status').innerHTML = "Please open the <a href=\"" + opts + "\" target=\"_blank\">options panel</a> and your installation URL.";
+					document.getElementById('status').innerHTML = "Please open the <a href=\"" + opts + "\" target=\"_blank\">options panel</a> and set your installation URL.";
 				}
 			});
 		} else {
